@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/signin_signup.css">
+	<link rel="stylesheet" type="text/css" href="css/recipies.css">
+	<script type="text/javascript" src="javascript/jquery.js"></script>
+	<script type="text/javascript" src="javascript/signin.js"></script>
+	<script type="text/javascript" src="javascript/recipies.js"></script>
+	<title>Recipies | Mother's Bakery</title>
+</head>
+<body>
+	<!-- LOGIN / SIGNUP -->
+<div class="modal">
+
+<div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button"  class="toggle-btn" id="clicklogin">LogIn</button>
+				<button type="button"  class="toggle-btn" id="clicksignup">Sign up</button>
+			</div>
+			<span class="cross_box"><i class="fa fa-times"></i></span>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Email ID">
+                <input type="password" class="input-field" placeholder="Password">
+                <button class="submit-btn">Log In</button>
+            </form>
+            <form id="signup" class="input-group">
+                <input type="text" class="input-field" placeholder="Name">
+                <input type="text" class="input-field" placeholder="Email ID">
+                <input type="password" class="input-field" placeholder="Password">
+                <button class="submit-btn">Sign up</button>
+            </form>
+        </div>
+</div>
+	<!-- MENUBAR -->
+<div class="col-md-12 menubar">
+	<div class="home col-md-2">
+		<div style="float: left;">
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+		    <li><a href="shop.html">Shop</a></li>
+		</ul>    
+	    </div>
+	</div>
+	<div class="col-md-7"></div>
+	<div class="col-md-3 aboutus_signin">
+		<div style="float: right;">
+		<ul>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li id="login_signup"><span>Signin/Signup</span></li>
+		</ul>
+	    </div>
+	</div>
+</div>  
+<div class="clearfix"></div>
+
+<div class="col-md-3"></div>
+<div class="col-md-6 heading">
+	<center><span>Best of Us</span></center>
+</div>
+<div class="col-md-3"></div>
+<div class="clearfix"></div>
+<div class="container">
+	<div class="col-md-12 all_products">
+		<div class="col-md-3 products">
+			<a href="cakes.html"><img src="images/cakes.jpg">
+			<center><h3>CAKES<span style="font-size: 10px;"><i class="fa fa-arrow-right"></i></span></h3></center></a>
+		</div>
+		<div class="col-md-3 products">
+			<a href="cookies.html"><img src="images/cookies.jpg">
+			<center><h3>COOKIES<span style="font-size: 10px;"><i class="fa fa-arrow-right"></i></span></h3></center></a>
+		</div>
+		<div class="col-md-3 products">
+			<a href="breads.html"><img src="images/breads.jpg">
+			<center><h3>BREADS<span style="font-size: 10px;"><i class="fa fa-arrow-right"></i></span></h3></center></a>
+		</div>
+	</div>
+</div>
+<div class="clearfix"></div>
+<!-- FOOTER -->
+<div class="col-md-12" style="bottom: 0; position: absolute;">
+	<div class="col-md-4"></div>
+	<div class="col-md-4 icons">
+		<p><i class="fa fa-facebook"></i>&nbsp;&nbsp;
+		<i class="fa fa-youtube"></i>&nbsp;&nbsp;
+		<i class="fa fa-google"></i>&nbsp;&nbsp;
+		<i class="fa fa-instagram"></i></p>
+	</div>
+	<div class="col-md-4"></div>
+</div>
+<div class="clearfix"></div>
+</body>
+</html>

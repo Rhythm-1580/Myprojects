@@ -1,0 +1,16 @@
+.image_aboutus{
+	margin-top: 20px;
+	
+}
+.aboutus{
+	padding: 15px;
+	background: #fffddb;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	box-shadow: 0px 0px 3px black;
+	border-radius: 7px;
+}
+.aboutus p{
+	color: #4f4f4f;
+	font-family: "Comic Sans MS";
+}

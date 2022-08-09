@@ -1,0 +1,36 @@
+.all_products{
+	padding: 12px;
+}
+.products{
+	background: #fcfce8;
+	padding:8px;
+	border-radius: 10px;
+	margin: 46px;
+	box-shadow: 1px 1px 2px #fff959;
+	overflow: hidden;
+}
+.products img{
+	width: 265px;
+	height: 265px;
+	transition: 0.8s;
+}
+.products a{
+	color: #c78f4c;
+	text-decoration: none;
+}
+.products a:hover{
+	text-decoration: none;
+}
+.products h3{
+	margin: 20px;
+	transition: 0.8s;
+	z-index: 2;
+	font-size: 22px;
+	font-family: "Forte";
+}
+.products img:hover{
+	transform: scale(1.06,1.06);
+}
+.products h3:hover{
+	letter-spacing: 5px;
+}

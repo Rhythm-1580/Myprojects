@@ -1,0 +1,29 @@
+$(document).ready(function(){
+	$('#openrecepie_vanillacake').click(function(){
+		$('#recepie_vanillacake').toggle(this)
+	});
+	$('#openrecepie_strawberrycake').click(function(){
+		$('#recepie_strawberrycake').toggle(this)
+	});
+	$('#openrecepie_chocolatecake').click(function(){
+		$('#recepie_chocolatecake').toggle(this)
+	});
+	$('#openrecepie_chococookie').click(function(){
+		$('#recepie_chococookie').toggle(this)
+	});
+	$('#openrecepie_corncookie').click(function(){
+		$('#recepie_corncookie').toggle(this)
+	});
+	$('#openrecepie_peanutcookie').click(function(){
+		$('#recepie_peanutcookie').toggle(this)
+	});
+	$('#openrecepie_wheatbread').click(function(){
+		$('#recepie_wheatbread').toggle(this)
+	});
+	$('#openrecepie_brownbread').click(function(){
+		$('#recepie_brownbread').toggle(this)
+	});
+	$('#openrecepie_bananabread').click(function(){
+		$('#recepie_bananabread').toggle(this)
+	});
+});
